@@ -3,11 +3,9 @@ package sms
 import (
 	"errors"
 	"regexp"
+	//"sms"
 )
 
-type SMSSender interface {
-	Send(to, message string) error
-}
 type handler struct {
 	sender SMSSender
 }
