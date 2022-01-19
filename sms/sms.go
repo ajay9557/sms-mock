@@ -8,6 +8,7 @@ import (
 type SMSSender interface {
 	Send(to, message string) error
 }
+
 type handler struct {
 	sender SMSSender
 }
@@ -27,8 +28,9 @@ func (h *handler) SendMessage(to, msg string) error {
 	if !isValid {
 		return errors.New("invalid sms message")
 	}
-	// use sms sender and send an sms,
+	// use sms sender and send an sms ,
 	err := h.sender.Send(to, msg)
+
 	if err != nil {
 		return errors.New("couldn't send sms")
 	}
