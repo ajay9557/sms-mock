@@ -3,8 +3,8 @@ package main
 import (
 	"fmt"
 
-	"github.com/zopping/sms-mock-test/sms"
-	"github.com/zopping/sms-mock-test/twilio"
+	"github.com/zopping/sms-mock/sms"
+	"github.com/zopping/sms-mock/twilio"
 )
 
 func main() {
