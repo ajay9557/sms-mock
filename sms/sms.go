@@ -5,9 +5,6 @@ import (
 	"regexp"
 )
 
-type SMSSender interface {
-	Send(to, message string) error
-}
 type handler struct {
 	sender SMSSender
 }
@@ -27,7 +24,7 @@ func (h *handler) SendMessage(to, msg string) error {
 	if !isValid {
 		return errors.New("invalid sms message")
 	}
-	// use sms sender and send an sms,
+	// use sms sender and send an sms ,
 	err := h.sender.Send(to, msg)
 	if err != nil {
 		return errors.New("couldn't send sms")
@@ -44,7 +41,7 @@ func validatePhone(number string) bool {
 }
 
 func validateMessage(msg string) bool {
-	if len([]rune(msg)) > 30 {
+	if len([]rune(msg)) > 30 || len([]rune(msg)) < 1 {
 		return false
 	}
 	return true

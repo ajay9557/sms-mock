@@ -1,0 +1,19 @@
+mode: set
+github.com/zopping/sms-mock-test/sms/sms.go:12.32,14.2 1 1
+github.com/zopping/sms-mock-test/sms/sms.go:16.53,19.14 2 1
+github.com/zopping/sms-mock-test/sms/sms.go:23.2,24.14 2 1
+github.com/zopping/sms-mock-test/sms/sms.go:28.2,29.16 2 1
+github.com/zopping/sms-mock-test/sms/sms.go:32.2,32.12 1 1
+github.com/zopping/sms-mock-test/sms/sms.go:19.14,21.3 1 1
+github.com/zopping/sms-mock-test/sms/sms.go:24.14,26.3 1 1
+github.com/zopping/sms-mock-test/sms/sms.go:29.16,31.3 1 1
+github.com/zopping/sms-mock-test/sms/sms.go:35.40,37.28 2 1
+github.com/zopping/sms-mock-test/sms/sms.go:40.2,40.14 1 1
+github.com/zopping/sms-mock-test/sms/sms.go:37.28,39.3 1 1
+github.com/zopping/sms-mock-test/sms/sms.go:43.39,44.51 1 1
+github.com/zopping/sms-mock-test/sms/sms.go:47.2,47.13 1 1
+github.com/zopping/sms-mock-test/sms/sms.go:44.51,46.3 1 1
+github.com/zopping/sms-mock-test/sms/sms_mock.go:25.63,29.2 3 1
+github.com/zopping/sms-mock-test/sms/sms_mock.go:32.61,34.2 1 1
+github.com/zopping/sms-mock-test/sms/sms_mock.go:37.56,42.2 4 1
+github.com/zopping/sms-mock-test/sms/sms_mock.go:45.81,48.2 2 1
